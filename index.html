@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center bg-green-600 justify-center md:p-4 w-full h-screen">
+    <div class=" w-[400px] bg-white p-2 md:p-4 rounded-xl">
+        <h1 class="font-bold text-[25px]">My to-do list</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p><br>
+        <div class="flex gap-1">
+            <input type="text" class="w-1/2 border-2">
+            <button class="pl-2 pr-2 pt-1 pb-1 bg-blue-600 text-white font-semibold rounded-full">Add</button>
+        </div>
+        <div class="p-10 w-full">
+            <ol class="list-none w-full  flex flex-col gap-2 font-semibold">
+                <li>1.My</li>
+                <li class="w-full bg-gray-300">2.<span class="w-full line-through">to do</span></li>
+                <li>list</li>
+            </ol>
+        </div>
+        <div class="w-full flex justify-start gap-2 items-center">
+            <button class="rounded-full text-[10px] md:text-[15px] pl-2 pr-2 pt-1 pb-1 mt-5 bg-blue-600 text-white">Clear Completed</button>
+            <button class="rounded-full text-[10px] md:text-[15px] pl-2 pr-2 pt-1 pb-1 mt-5 bg-red-900 text-white">Empty List</button>
+            <button class="rounded-full text-[10px] md:text-[15px] pl-2 pr-2 pt-1 pb-1 mt-5 bg-green-600 text-white">Save List</button>
+        </div>
+    </div>
+    
+</body>
+</html>
